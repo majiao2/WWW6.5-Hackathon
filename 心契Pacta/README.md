@@ -195,3 +195,29 @@ A：完全支持。你可以创建任何你想培养的习惯。
 ```
 
 ---
+
+## 项目目录结构
+Pacta/
+├── api/                     # Supabase Edge Functions
+├── contracts/
+│   └── Pacta.sol            # 核心智能合约
+├── mock-api/                # 本地开发模拟后端
+│   ├── data/
+│   ├── app.mjs
+│   ├── dev-full.mjs
+│   └── server.mjs
+├── public/
+├── src/
+│   ├── abi/                 # 合约 ABI
+│   ├── components/          # 手账风格组件
+│   ├── data/                # 内置 65 种微习惯数据
+│   ├── hooks/
+│   ├── pages/               # 首页、六大分类、我的挑战、用户总览
+│   ├── store/
+│   └── App.tsx
+├── supabase/                # Supabase 数据库 schema
+├── .env.example
+├── package.json
+├── tailwind.config.ts
+├── vite.config.ts
+└── README.md
