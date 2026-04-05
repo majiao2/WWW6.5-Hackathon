@@ -197,6 +197,7 @@ A：完全支持。你可以创建任何你想培养的习惯。
 ---
 
 ## 项目目录结构
+```
 Pacta/
 ├── api/                     # Supabase Edge Functions
 ├── contracts/
@@ -221,3 +222,4 @@ Pacta/
 ├── tailwind.config.ts
 ├── vite.config.ts
 └── README.md
+```
